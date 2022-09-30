@@ -111,7 +111,9 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0.vendor \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    libhidltransport \
+    libhidltransport.vendor
 
 # Health
 PRODUCT_PACKAGES += \
