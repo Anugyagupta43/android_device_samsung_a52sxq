@@ -133,6 +133,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung \
     libkeymaster4_1support.vendor
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.samsung
+
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.common-V1-ndk_platform
