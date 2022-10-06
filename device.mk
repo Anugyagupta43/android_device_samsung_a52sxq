@@ -139,6 +139,16 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxCore \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libOmxVdec \
+    libOmxVenc \
+    libstagefrighthw \
     android.hardware.common-V1-ndk_platform
 
 # Minijail
