@@ -86,7 +86,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.device@3.6.vendor
+    android.hardware.camera.device@3.6.vendor \
+    android.hardware.camera.provider@2.5-legacy
 
 # Cas
 PRODUCT_PACKAGES += \
