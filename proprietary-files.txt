@@ -421,7 +421,6 @@ vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so
 vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
-vendor/lib/vendor.samsung.hardware.thermal@1.0.so
 vendor/lib/libSceneDetector_v1.camera.samsung.so
 vendor/lib/libSunVerifier_v1.camera.samsung.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
@@ -1630,11 +1629,8 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so
 # Thermal
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
-vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
-vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
 
 # Thermal configs
 vendor/etc/thermal-engine.conf
@@ -1715,7 +1711,6 @@ vendor/bin/hw/rild
 vendor/bin/hw/vendor.samsung.hardware.biometrics.face@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
 vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
 vendor/bin/add.pb
 vendor/bin/applypatch
@@ -1802,7 +1797,6 @@ vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor_flash_recovery.rc
 vendor/etc/lm/prekill/prekill_2GB.data
