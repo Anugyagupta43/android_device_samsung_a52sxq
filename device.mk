@@ -115,7 +115,8 @@ PRODUCT_PACKAGES += \
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
-    qcom.fmradio
+    qcom.fmradio \
+    vendor.qti.hardware.fm@1.0.vendor
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
